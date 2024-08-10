@@ -2115,8 +2115,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 17.6, y: 0.00799942}
-  m_SizeDelta: {x: -37.964, y: -0.017}
+  m_AnchoredPosition: {x: 18.312, y: 0.00825119}
+  m_SizeDelta: {x: -36.624, y: -0.016}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1925396755
 MonoBehaviour:
@@ -2131,14 +2131,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 1}
+  m_Color: {r: 0.6981132, g: 0.6981132, b: 0.6981132, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6e5e775ca5c2a3948863984bf682df38, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4d34d4556408d854398fd2719054c8c7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2577,6 +2577,30 @@ PrefabInstance:
     - target: {fileID: 833381054660126357, guid: 71732d9032301a04b86c08070a9446f0, type: 3}
       propertyPath: m_Name
       value: Barriers
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701065689906731451, guid: 71732d9032301a04b86c08070a9446f0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701065689906731451, guid: 71732d9032301a04b86c08070a9446f0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6329892381308083901, guid: 71732d9032301a04b86c08070a9446f0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6368987221548800800, guid: 71732d9032301a04b86c08070a9446f0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 6368987221548800800, guid: 71732d9032301a04b86c08070a9446f0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 20.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 7367525751723515539, guid: 71732d9032301a04b86c08070a9446f0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 23.84
       objectReference: {fileID: 0}
     - target: {fileID: 7790232279804761511, guid: 71732d9032301a04b86c08070a9446f0, type: 3}
       propertyPath: m_LocalScale.x
