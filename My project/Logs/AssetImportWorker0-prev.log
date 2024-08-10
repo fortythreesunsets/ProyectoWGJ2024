@@ -15,7 +15,7 @@ D:/Cunejita/Documentos/GameJam2024/ProyectoWGJ2024/My project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64343
+60781
 Successfully changed project path to: D:/Cunejita/Documentos/GameJam2024/ProyectoWGJ2024/My project
 D:/Cunejita/Documentos/GameJam2024/ProyectoWGJ2024/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/Cunejita/Documentos/GameJam2024/ProyectoWGJ2024/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19132] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 1592803982 [EditorId] 1592803982 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-49F7TGB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20500] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 1560473711 [EditorId] 1560473711 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-49F7TGB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19132] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 1592803982 [EditorId] 1592803982 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-49F7TGB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20500] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 1560473711 [EditorId] 1560473711 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-49F7TGB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 5.64 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.98 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.6f1 (b9e6e7e9fa2d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -69,48 +69,48 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.024557 seconds.
-- Loaded All Assemblies, in  0.340 seconds
+Registered in 0.025676 seconds.
+- Loaded All Assemblies, in  0.376 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.223 seconds
-Domain Reload Profiling: 559ms
-	BeginReloadAssembly (104ms)
+- Finished resetting the current domain, in  0.279 seconds
+Domain Reload Profiling: 650ms
+	BeginReloadAssembly (103ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (122ms)
-		LoadAssemblies (100ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (149ms)
+		LoadAssemblies (101ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (110ms)
-			TypeCache.Refresh (109ms)
-				TypeCache.ScanAssembly (99ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (121ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (224ms)
+	FinalizeReload (279ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (184ms)
+		SetupLoadedEditorAssemblies (224ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (73ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (97ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (73ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (85ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,53 +120,53 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Cunejita\Documentos\GameJam2024\ProyectoWGJ2024\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Cunejita\Documentos\GameJam2024\ProyectoWGJ2024\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.603 seconds
-Refreshing native plugins compatible for Editor in 2.34 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.708 seconds
+Refreshing native plugins compatible for Editor in 2.50 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.413 seconds
-Domain Reload Profiling: 1012ms
-	BeginReloadAssembly (119ms)
+- Finished resetting the current domain, in  0.498 seconds
+Domain Reload Profiling: 1200ms
+	BeginReloadAssembly (128ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (405ms)
-		LoadAssemblies (263ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (476ms)
+		LoadAssemblies (284ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (207ms)
-			TypeCache.Refresh (190ms)
-				TypeCache.ScanAssembly (180ms)
-			ScanForSourceGeneratedMonoScriptInfo (13ms)
+		AnalyzeDomain (260ms)
+			TypeCache.Refresh (236ms)
+				TypeCache.ScanAssembly (220ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (414ms)
+	FinalizeReload (498ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (304ms)
+		SetupLoadedEditorAssemblies (363ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (174ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (16ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (222ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (17ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.53 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 63 unused Assets / (60.6 KB). Loaded Objects now: 4527.
-Memory consumption went from 149.9 MB to 149.8 MB.
-Total: 2.475600 ms (FindLiveObjects: 0.201200 ms CreateObjectMapping: 0.097600 ms MarkObjects: 2.066500 ms  DeleteObjects: 0.109100 ms)
+Unloading 63 unused Assets / (60.5 KB). Loaded Objects now: 4528.
+Memory consumption went from 150.0 MB to 149.9 MB.
+Total: 2.647000 ms (FindLiveObjects: 0.202700 ms CreateObjectMapping: 0.099800 ms MarkObjects: 2.225700 ms  DeleteObjects: 0.117900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,820 +183,478 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 90314.880644 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(bd556bfae7545da48baf403bfe15375c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(bd556bfae7545da48baf403bfe15375c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f028905b95e170172687f6b503202d8a') in 0.002205 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites
-  artifactKey: Guid(2685bbe4233ac26489965a3929ea353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(2685bbe4233ac26489965a3929ea353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344e62b27e4938b5ccf9e4e7ad48c20b') in 0.000253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.308197 seconds.
-  path: Assets/Sprites/TileMaps
-  artifactKey: Guid(746b454b454dd2e49b45799d864fb2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps using Guid(746b454b454dd2e49b45799d864fb2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab7a967c8f321fcc8703c38f7f4c219') in 0.000636 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 125.549067 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art
-  artifactKey: Guid(0af7796638b6ec347b592162783c1d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art using Guid(0af7796638b6ec347b592162783c1d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b6c63b4cc815f81beaeb40d4bd382a') in 0.000380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.658806 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks
-  artifactKey: Guid(e976e02e53b435b4a90760184489ef40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks using Guid(e976e02e53b435b4a90760184489ef40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d7c6049b0920327247fccf5d105a42') in 0.000328 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.095374 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_1.png
-  artifactKey: Guid(f742c5705c25a9d4bad58c5b0a030b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_1.png using Guid(f742c5705c25a9d4bad58c5b0a030b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9197bf60042ab26af2b2c6502b30503b') in 0.064093 seconds
+  Time since last request: 97322.382487 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Jumping_(32 x 32).png
+  artifactKey: Guid(1bb23abcaf35fa349aa97959164f6581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Jumping_(32 x 32).png using Guid(1bb23abcaf35fa349aa97959164f6581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee7c7f594c3c981d14b75266239df48') in 0.068703 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_41.png
-  artifactKey: Guid(39951e9b6c7521d4c9fb691868be3c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_41.png using Guid(39951e9b6c7521d4c9fb691868be3c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75dc102a1f2e5e715fcbceb24c38ced') in 0.019688 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_52.png
-  artifactKey: Guid(b4e8ad27e4864a142bd35d2887a99b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_52.png using Guid(b4e8ad27e4864a142bd35d2887a99b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eaa4415b1b5a648cc5dd90174856796') in 0.019584 seconds
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Running_(32 x 32).png
+  artifactKey: Guid(2dfef74b2e8a3bc42843d12e4ecf35ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Running_(32 x 32).png using Guid(2dfef74b2e8a3bc42843d12e4ecf35ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759c45801b6e801411d652b9bdde60e9') in 0.026749 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_8.png
-  artifactKey: Guid(61a0bce53ad4c82489ac42c4347d430b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_8.png using Guid(61a0bce53ad4c82489ac42c4347d430b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064930bbf6a4b13d9e25ebed632a9a0f') in 0.019156 seconds
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Ducking_(32 x 32).png
+  artifactKey: Guid(fbefc460231c9d8488a8aba8fa6e8eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Ducking_(32 x 32).png using Guid(fbefc460231c9d8488a8aba8fa6e8eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9426a8128162e0b9b6659e65ccbb73') in 0.025583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Idle_(32 x 32).png
+  artifactKey: Guid(40cfc7acea6b3c04788ddfeb0234cb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Idle_(32 x 32).png using Guid(40cfc7acea6b3c04788ddfeb0234cb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191d595d52a56b64f656b9283bc06915') in 0.022516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Casting_Spell_Repeating_(32 x 32).png
+  artifactKey: Guid(79d7f75e81463c84aa800b34869917dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Casting_Spell_Repeating_(32 x 32).png using Guid(79d7f75e81463c84aa800b34869917dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c53a7c558b1bbb7a1bd53132827c479') in 0.025110 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000011 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_17.png
-  artifactKey: Guid(f2b4685b0fa2750449ef9423d2f0414d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_17.png using Guid(f2b4685b0fa2750449ef9423d2f0414d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977018f00374f11e4da57dc9053b8c05') in 0.020131 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_27.png
-  artifactKey: Guid(9e4be9b87222f994c831ed1869e62736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_27.png using Guid(9e4be9b87222f994c831ed1869e62736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c013ab36d237c45f1ab48a15f0948ce') in 0.020760 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_21.png
-  artifactKey: Guid(ab213c73fe63e9a4f8b2ef42d81a4284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_21.png using Guid(ab213c73fe63e9a4f8b2ef42d81a4284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1160d430629e8e445279c23aaabd5529') in 0.018669 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_11.png
-  artifactKey: Guid(8f20f30c64640a64f9d0824121bfede3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_11.png using Guid(8f20f30c64640a64f9d0824121bfede3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7f218b7f6e7e72c67bea1856f2a076') in 0.018941 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_6.png
-  artifactKey: Guid(fd8c55d198a9bcb449e1c9043886a836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_6.png using Guid(fd8c55d198a9bcb449e1c9043886a836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344d6fcbd1d7828a5f5aa065c7d31b44') in 0.019103 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_75.png
-  artifactKey: Guid(d7cca285146712c42abbf0367e53b83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_75.png using Guid(d7cca285146712c42abbf0367e53b83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd387b3e540da444b65b701e28cef2a') in 0.019391 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_34.png
-  artifactKey: Guid(76e9c02e0e0de3047a7d69c4b0e602e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_34.png using Guid(76e9c02e0e0de3047a7d69c4b0e602e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c4092e33110f36d5b0eafb3c125426') in 0.018709 seconds
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Casting_Spell_Aerial_(32 x 32).png
+  artifactKey: Guid(4fb158d2afc7b354da444ac7fdb6de01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Casting_Spell_Aerial_(32 x 32).png using Guid(4fb158d2afc7b354da444ac7fdb6de01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25822d8dc4ad733fd73ba2b80489698') in 0.023309 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_77.png
-  artifactKey: Guid(7c26c794f25dbb644a5d3c3f32dcadaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_77.png using Guid(7c26c794f25dbb644a5d3c3f32dcadaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bb24efbb83ee61cebbb25a41ca5005') in 0.019520 seconds
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Magical_Orbs_Spell_(32 x 32).png
+  artifactKey: Guid(3cebbfbcc88c3c64fb035a5fc0a4d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Magical_Orbs_Spell_(32 x 32).png using Guid(3cebbfbcc88c3c64fb035a5fc0a4d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408d4e3f4d90d6f72f25f87fe2396064') in 0.025069 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_81.png
-  artifactKey: Guid(9a51cfc2e67a16b478fa323012158e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_81.png using Guid(9a51cfc2e67a16b478fa323012158e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8f47536b88b9d26f6f4931b9160604') in 0.021652 seconds
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Falling_(32 x 32).png
+  artifactKey: Guid(694018eac755df14ebcaa9acdb1ef409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Falling_(32 x 32).png using Guid(694018eac755df14ebcaa9acdb1ef409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8152e2a5ab9416d8fc619d312d49cd00') in 0.025381 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_36.png
-  artifactKey: Guid(d1acde76e7cc2f840a6a843ef8a33128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_36.png using Guid(d1acde76e7cc2f840a6a843ef8a33128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ed76645557bee709278e6817c459e9') in 0.020075 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_33.png
-  artifactKey: Guid(cd92cc7084e17ff48a96557a609ff2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_33.png using Guid(cd92cc7084e17ff48a96557a609ff2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b3be86a24299881fc1298c0ba56b40') in 0.019634 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_68.png
-  artifactKey: Guid(449a4990e317d9e4f8f8bd8f58eba18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_68.png using Guid(449a4990e317d9e4f8f8bd8f58eba18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ffab52a70c6f8fac047fb060ece475') in 0.019620 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_42.png
-  artifactKey: Guid(63d2d496e5b9b644e99bb19540443a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_42.png using Guid(63d2d496e5b9b644e99bb19540443a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5f97539d1822c91df9ea7293fe666f') in 0.019819 seconds
+  Time since last request: 7.782471 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/1 - Robo Retro/Flight_Hurt_(32 x 32).png
+  artifactKey: Guid(c109b8fc530f51b4ea1a36efa76e0385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/1 - Robo Retro/Flight_Hurt_(32 x 32).png using Guid(c109b8fc530f51b4ea1a36efa76e0385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fdb3e1709152289fea48ce5c9275d2') in 0.215181 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_51.png
-  artifactKey: Guid(0c304fe86a9b2164284ffd9eb7e3adc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_51.png using Guid(0c304fe86a9b2164284ffd9eb7e3adc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56749ce230bf639ae46796c939cd48c') in 0.019526 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_72.png
-  artifactKey: Guid(8e563501a1e2cc240a8b9cdc5b661f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_72.png using Guid(8e563501a1e2cc240a8b9cdc5b661f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdde348e6e837aaccc483c18e2789f7') in 0.019472 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_32.png
-  artifactKey: Guid(ee5041c4158bfdb44bc6f34695c0f3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_32.png using Guid(ee5041c4158bfdb44bc6f34695c0f3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6976d55259e7bf17eda4e5e97adf3a') in 0.020556 seconds
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/1 - Robo Retro/Pilot_Idle_(32 x 32).png
+  artifactKey: Guid(37c7ca1f11088e046a606ff71a5a05e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/1 - Robo Retro/Pilot_Idle_(32 x 32).png using Guid(37c7ca1f11088e046a606ff71a5a05e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1916edb318387b227edb3b67dde93cf8') in 0.025653 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_69.png
-  artifactKey: Guid(84a556268af04c548b639dca440e1d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_69.png using Guid(84a556268af04c548b639dca440e1d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af685966bbdd0f55293159aaa3cc476') in 0.019581 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_66.png
-  artifactKey: Guid(6ca9ba70a286a7a4f8b71877fce8f29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_66.png using Guid(6ca9ba70a286a7a4f8b71877fce8f29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbef9d303451f8f3f1e18318be290e1') in 0.020644 seconds
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/1 - Robo Retro/Idle_(32 x 32).png
+  artifactKey: Guid(5abd6501181efd04f92d9b8a95eb52a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/1 - Robo Retro/Idle_(32 x 32).png using Guid(5abd6501181efd04f92d9b8a95eb52a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e170d93e8df1869fafe9a897c794d573') in 0.026387 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_43.png
-  artifactKey: Guid(b683526b2c0915847a6e905cd4269440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_43.png using Guid(b683526b2c0915847a6e905cd4269440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22db2c077d5fe62cd144a4d72dab8bf3') in 0.021206 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_25.png
-  artifactKey: Guid(d124d18767b60c54daabe92aabb88e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_25.png using Guid(d124d18767b60c54daabe92aabb88e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdd2b9ec8108ff12925eb0630282605') in 0.023294 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_35.png
-  artifactKey: Guid(437ffaa9aa0be6a439ddee83b6e7b6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_35.png using Guid(437ffaa9aa0be6a439ddee83b6e7b6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80fb543ee7be035401ab9df12b53b95') in 0.021370 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_12.png
-  artifactKey: Guid(23b8523cab9ad70429b3d10c3f88047e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_12.png using Guid(23b8523cab9ad70429b3d10c3f88047e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fac8a5eeaf9f1268c7c668347fc0b3') in 0.019957 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_50.png
-  artifactKey: Guid(7ae9439e9c39d2247892b8b4ad075b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_50.png using Guid(7ae9439e9c39d2247892b8b4ad075b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe4fa3103ed446f3361095c09d1ac97') in 0.022302 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_19.png
-  artifactKey: Guid(acb033c00aaa0c446a8837c4219d9825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_19.png using Guid(acb033c00aaa0c446a8837c4219d9825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbf2e488d4a5b0514e3df3a23d0444c') in 0.020164 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_60.png
-  artifactKey: Guid(48d5234864f800645ab69f0cb85bb040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_60.png using Guid(48d5234864f800645ab69f0cb85bb040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c4a404517a84f6d3301572fc89c256') in 0.021028 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_40.png
-  artifactKey: Guid(061ba4475cc727c428d4237179b741d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_40.png using Guid(061ba4475cc727c428d4237179b741d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d16758086f96011ca64ec2276bcff6e') in 0.021274 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_47.png
-  artifactKey: Guid(58416794f1d65b249925afd7896366fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_47.png using Guid(58416794f1d65b249925afd7896366fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e40d207b0a3cff8e8faac7c0e9102e8') in 0.019693 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_62.png
-  artifactKey: Guid(ac531d9e77f10364ba3f441fe1de3f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_62.png using Guid(ac531d9e77f10364ba3f441fe1de3f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587abed2e6ef0f894b3b94589d90a4d8') in 0.020314 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_48.png
-  artifactKey: Guid(cdb39d26adb594948bf421d13b0829f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_48.png using Guid(cdb39d26adb594948bf421d13b0829f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9feaadcf82f5bc8067d82ec284cc2b82') in 0.020994 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_59.png
-  artifactKey: Guid(f31c00189bd444345a46dc23537640a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_59.png using Guid(f31c00189bd444345a46dc23537640a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54cb6802bbd8d20f66d97a93c05499d') in 0.022347 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_26.png
-  artifactKey: Guid(9f0ef4ef74bb88f47b69aae5f1e9c41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_26.png using Guid(9f0ef4ef74bb88f47b69aae5f1e9c41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5322a33466156d92d4383d4f726053b') in 0.022453 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_64.png
-  artifactKey: Guid(910eadcd082dcbd4e8422bb4693df0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_64.png using Guid(910eadcd082dcbd4e8422bb4693df0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f789f2207614cc70e567f55ebe506c06') in 0.020903 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_53.png
-  artifactKey: Guid(8b5f4e3823725b946a9aae9788b8c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_53.png using Guid(8b5f4e3823725b946a9aae9788b8c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f3710e6aaac6a668a68ee8e10a4cc3') in 0.022730 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_79.png
-  artifactKey: Guid(76bef8b0fec1db64e873580a52358c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_79.png using Guid(76bef8b0fec1db64e873580a52358c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d2213ffd087da380ba0921ab452bcf') in 0.020816 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_78.png
-  artifactKey: Guid(bee37e164e814a44e903a1d91bab7feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_78.png using Guid(bee37e164e814a44e903a1d91bab7feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b017affcaca78966fa080c6c6f43f057') in 0.020966 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_58.png
-  artifactKey: Guid(aa4ec994769506a428077b9dae3cb1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_58.png using Guid(aa4ec994769506a428077b9dae3cb1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216063aa0fdbef719e0f8fb3d30d6c08') in 0.022320 seconds
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/1 - Robo Retro/Walking_(32 x 32).png
+  artifactKey: Guid(6261014f746dae146b978e5fbd49ee6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/1 - Robo Retro/Walking_(32 x 32).png using Guid(6261014f746dae146b978e5fbd49ee6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7bea96663a82171b7aaf886b0b3dfc') in 0.026302 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_57.png
-  artifactKey: Guid(68e3668dc857efb4b8557def3e713b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_57.png using Guid(68e3668dc857efb4b8557def3e713b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807726eee28205af46bf46230173c10e') in 0.020657 seconds
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/1 - Robo Retro/Pilot_Front-facing_(32 x 32).png
+  artifactKey: Guid(a21ad1c9ac3898a43a3bc72583fc280b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/1 - Robo Retro/Pilot_Front-facing_(32 x 32).png using Guid(a21ad1c9ac3898a43a3bc72583fc280b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0f21cb2f487288a295a0e373423f7a') in 0.022668 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 49.676547 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_83.png
-  artifactKey: Guid(f1b0644639ce2c64bb33b78c4636c6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_83.png using Guid(f1b0644639ce2c64bb33b78c4636c6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7675e95a5198282356955ed2f13bc2') in 0.019970 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_97.png
-  artifactKey: Guid(66358ba02fc6180418bf12c62dc9a32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_97.png using Guid(66358ba02fc6180418bf12c62dc9a32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ecfbb86f8bc87468c2461cbf18a07a') in 0.022248 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_100.png
-  artifactKey: Guid(fdde6390b6529af41923995f3dc53442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_100.png using Guid(fdde6390b6529af41923995f3dc53442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf92bb72a37dc7b271369a05a04e42f') in 0.020687 seconds
+  Time since last request: 1.313621 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/3 - Big Red/Facing_Player_(32 x 32).png
+  artifactKey: Guid(8c2a34f898c1c064fb12b3ffb1fb0aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/3 - Big Red/Facing_Player_(32 x 32).png using Guid(8c2a34f898c1c064fb12b3ffb1fb0aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf45b7059f01759c9602f6f5b4b76cf') in 0.024570 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_86.png
-  artifactKey: Guid(279e08690a9452e4880904536980af1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_86.png using Guid(279e08690a9452e4880904536980af1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84c72a3dc971ab7f76bff07e0a46b06') in 0.020871 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_92.png
-  artifactKey: Guid(60b283af444d22c4dadae4e3f2439b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_92.png using Guid(60b283af444d22c4dadae4e3f2439b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30e80a8ebfeef9be07790c5daee2860') in 0.021107 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_93.png
-  artifactKey: Guid(682cc0f65e33aff4d8b27fcffb0ac03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_93.png using Guid(682cc0f65e33aff4d8b27fcffb0ac03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d41d4e93df0be8fea08e449e773b135') in 0.020497 seconds
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/3 - Big Red/Punching_(48 x 32).png
+  artifactKey: Guid(e0ab6ff6aa061a04b87e613fe8830dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/3 - Big Red/Punching_(48 x 32).png using Guid(e0ab6ff6aa061a04b87e613fe8830dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884649cd24ba64aa441c139e25ce70f5') in 0.026697 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_90.png
-  artifactKey: Guid(410cdd7874f5edd4cb3990b1e4d661a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_90.png using Guid(410cdd7874f5edd4cb3990b1e4d661a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538a7903c7607612d926a6ccb2408967') in 0.022262 seconds
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/3 - Big Red/Running_(32 x 32).png
+  artifactKey: Guid(75ef4f5691f9d1e4c88202200c33b5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/3 - Big Red/Running_(32 x 32).png using Guid(75ef4f5691f9d1e4c88202200c33b5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85af72991f96c297795477ff03407ac2') in 0.025568 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_94.png
-  artifactKey: Guid(7bb973b44c9c1b04abeb4205a9c9eda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_94.png using Guid(7bb973b44c9c1b04abeb4205a9c9eda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b18e44aadb9dfb2ce20f3b397d7447') in 0.017995 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Cunejita\Documentos\GameJam2024\ProyectoWGJ2024\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Cunejita\Documentos\GameJam2024\ProyectoWGJ2024\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.660 seconds
+Refreshing native plugins compatible for Editor in 2.76 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.755 seconds
+Domain Reload Profiling: 1410ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (418ms)
+		LoadAssemblies (298ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (204ms)
+			TypeCache.Refresh (199ms)
+				TypeCache.ScanAssembly (188ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (755ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (382ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 3.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4035 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (34.8 KB). Loaded Objects now: 4553.
+Memory consumption went from 143.2 MB to 143.2 MB.
+Total: 2.873400 ms (FindLiveObjects: 0.211900 ms CreateObjectMapping: 0.108600 ms MarkObjects: 2.501200 ms  DeleteObjects: 0.050500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 426.495795 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_20.asset
-  artifactKey: Guid(97e03f063a296e24385c3c9a176527df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_20.asset using Guid(97e03f063a296e24385c3c9a176527df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750706c52f49c50a6fd4bb46170fd293') in 0.112090 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_50.asset
-  artifactKey: Guid(62b7a7414d7705a48aa95b2eb152e6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_50.asset using Guid(62b7a7414d7705a48aa95b2eb152e6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b735c0fdcc0aedc1d0d1ad6dfb0dfa') in 0.003657 seconds
+  Time since last request: 88.784692 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/1 - Robo Retro/Flight_Start-up_(32 x 32).png
+  artifactKey: Guid(7f9cb56d5327c4a4b86897ded58ca5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/1 - Robo Retro/Flight_Start-up_(32 x 32).png using Guid(7f9cb56d5327c4a4b86897ded58ca5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd787b174a87312a89c27eca13b8a6d') in 0.058888 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_24.asset
-  artifactKey: Guid(3ead776b8b56b284d837d75529eb85dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_24.asset using Guid(3ead776b8b56b284d837d75529eb85dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70003e64c0ea7a9a5aa4f755538164b1') in 0.003660 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_32.asset
-  artifactKey: Guid(50c6d2316350cfd44b52031d60e7bd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_32.asset using Guid(50c6d2316350cfd44b52031d60e7bd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815f8a8a53bfee6047146bd43860530e') in 0.003130 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_44.asset
-  artifactKey: Guid(4a7c3cc5e4f1cae449e557dfddb8d4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_44.asset using Guid(4a7c3cc5e4f1cae449e557dfddb8d4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a55e0d33c8159eb99dd0c2610e4514d') in 0.003045 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_48.asset
-  artifactKey: Guid(9671574739f846641b19ef2cbfbfb0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_48.asset using Guid(9671574739f846641b19ef2cbfbfb0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a920d6b8db6a2a6d65abe1655706173') in 0.003923 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_47.asset
-  artifactKey: Guid(9c01bd837888400489cd617edce56dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_47.asset using Guid(9c01bd837888400489cd617edce56dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b0d514d8ee13bf572faff3da17fb48') in 0.003561 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_54.asset
-  artifactKey: Guid(3e10b0e059df90b42bb1b7321fef31c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_54.asset using Guid(3e10b0e059df90b42bb1b7321fef31c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9cc42ca813c5a006aab6d26f32ce7c') in 0.002970 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_59.asset
-  artifactKey: Guid(5c7ee070521667a459335082ec6b48ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_59.asset using Guid(5c7ee070521667a459335082ec6b48ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5ed792597134e86a50c3c38a07e3d0') in 0.003099 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_23.asset
-  artifactKey: Guid(24afcfe001ae46548846e6399a445cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_23.asset using Guid(24afcfe001ae46548846e6399a445cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52df8d931d7f9fffd199a4bc8648c0b8') in 0.003370 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_36.asset
-  artifactKey: Guid(f08e8300ca4cb7d439318b1c9bbc9ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_36.asset using Guid(f08e8300ca4cb7d439318b1c9bbc9ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63db03fdb03ee0e33940d0c36e767226') in 0.003898 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_27.asset
-  artifactKey: Guid(1402cbf17e097a44da1e6c3d4a8667a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_27.asset using Guid(1402cbf17e097a44da1e6c3d4a8667a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a240e6268e0de494efa10be446fccbf1') in 0.003370 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_43.asset
-  artifactKey: Guid(691b4c0d9ccc2ad4db44474bf934cdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_43.asset using Guid(691b4c0d9ccc2ad4db44474bf934cdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8a6813ae8bd6e58329b91103b8af56') in 0.003057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_33.asset
-  artifactKey: Guid(b678bac733cf98b4fafa5b60a921333f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_33.asset using Guid(b678bac733cf98b4fafa5b60a921333f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1bcf8353f63c3a99b16fb75dcf9111') in 0.003503 seconds
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/1 - Robo Retro/Flying_(32 x 32).png
+  artifactKey: Guid(a263a76f44e303d43b5ece061ee42d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/1 - Robo Retro/Flying_(32 x 32).png using Guid(a263a76f44e303d43b5ece061ee42d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcfcbf066bdc4e61cc4ae35107de04d3') in 0.022957 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_58.asset
-  artifactKey: Guid(e9ab4c610e8045e40b1a912aa7b6699f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_58.asset using Guid(e9ab4c610e8045e40b1a912aa7b6699f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16747cc4047aacc62e69006c016c974') in 0.004628 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_28.asset
-  artifactKey: Guid(1e20006bc74a8174697928d9bce380d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_28.asset using Guid(1e20006bc74a8174697928d9bce380d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c262e1a4bfe24110e380ca4efac472') in 0.003166 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_51.asset
-  artifactKey: Guid(85e03d6ecf488c74693e9e33b1d2c136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_51.asset using Guid(85e03d6ecf488c74693e9e33b1d2c136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e034218bf7a3519fe22f7bc042fd96') in 0.003047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_38.asset
-  artifactKey: Guid(9c3ee32d978e9cc488418ea0d17d3814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_38.asset using Guid(9c3ee32d978e9cc488418ea0d17d3814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4b9909f81e356a7ffc5f48f7eda845') in 0.003527 seconds
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/1 - Robo Retro/Pilot_Hurt_(32 x 32).png
+  artifactKey: Guid(338fbe4c0af0e3c4285c0a90822d724a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/1 - Robo Retro/Pilot_Hurt_(32 x 32).png using Guid(338fbe4c0af0e3c4285c0a90822d724a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68386917a14ccfed5b496644ae1a6b0') in 0.020078 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_37.asset
-  artifactKey: Guid(7483e7abf67018a4981d69d2d2cd4bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_37.asset using Guid(7483e7abf67018a4981d69d2d2cd4bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f88c9c47cbfa43b56085d8f5317902') in 0.003511 seconds
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/1 - Robo Retro/Pilot_Running_(32 x 32).png
+  artifactKey: Guid(9b96417beec825b43b8dadab4b304868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/1 - Robo Retro/Pilot_Running_(32 x 32).png using Guid(9b96417beec825b43b8dadab4b304868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18fc7a6a90c97efb32a19e033ba48b9') in 0.022073 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_45.asset
-  artifactKey: Guid(a97ec0c20126226418e88d061346b3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_45.asset using Guid(a97ec0c20126226418e88d061346b3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6fbc313d93b81f4a5fe7644432324e') in 0.003044 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/1 - Robo Retro/Spin-attack_(32 x 32).png
+  artifactKey: Guid(0888aa0e87b26f6418b3409610dd80de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/1 - Robo Retro/Spin-attack_(32 x 32).png using Guid(0888aa0e87b26f6418b3409610dd80de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603959aef1aa8cbd264a898346902eba') in 0.020861 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_55.asset
-  artifactKey: Guid(bd748c484d0385a4395ef7af298a82bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_55.asset using Guid(bd748c484d0385a4395ef7af298a82bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e7c7ab2df28b4326b148bec5dc5767') in 0.003261 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_62.asset
-  artifactKey: Guid(8dec6fc814bbf324783567919b9a41e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_62.asset using Guid(8dec6fc814bbf324783567919b9a41e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f82fa20189197f9a5e779378fc793a') in 0.003715 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_40.asset
-  artifactKey: Guid(299aa161343a5a644924423a8e293986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_40.asset using Guid(299aa161343a5a644924423a8e293986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf502aa5f6bdf4ac50fb96728675d40') in 0.004881 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 32.577191 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_66.asset
-  artifactKey: Guid(d698ad074fabd2d44a75b10f50200b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_66.asset using Guid(d698ad074fabd2d44a75b10f50200b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a513e0fc8dbdd0a4d2c6bedfbac8759') in 0.004654 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_72.asset
-  artifactKey: Guid(5889907898a9be64bb1b3903125ed9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_72.asset using Guid(5889907898a9be64bb1b3903125ed9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d432274641200142c822845db153ad7') in 0.003368 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_71.asset
-  artifactKey: Guid(99a018c92e6fb3c45a2fefd3a893039d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_71.asset using Guid(99a018c92e6fb3c45a2fefd3a893039d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b3f42417795882b7f165a2a873c310') in 0.003113 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_70.asset
-  artifactKey: Guid(1c3a19527606810498b07a4ac3b16c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_70.asset using Guid(1c3a19527606810498b07a4ac3b16c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68d62699b74bea43c31cc52bbce2926') in 0.003059 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.011125 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_75.asset
-  artifactKey: Guid(52f10504ca6f8464a890acb863e57182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_75.asset using Guid(52f10504ca6f8464a890acb863e57182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8f86129a9fc1f56aeadb523ae07ce4') in 0.003222 seconds
+  Time since last request: 12.268945 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Casting_Spell_Aerial_(32 x 32).png
+  artifactKey: Guid(4fb158d2afc7b354da444ac7fdb6de01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Casting_Spell_Aerial_(32 x 32).png using Guid(4fb158d2afc7b354da444ac7fdb6de01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed114d43b6942b71c5ff07ae5120558a') in 0.022293 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000010 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_79.asset
-  artifactKey: Guid(1e2f7e633b12d7f4ab7bc71073f3c203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_79.asset using Guid(1e2f7e633b12d7f4ab7bc71073f3c203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c887897773619081effaa7d189a59b25') in 0.003436 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_76.asset
-  artifactKey: Guid(dc7cf21ce1c83594da71ae2794e0bbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_76.asset using Guid(dc7cf21ce1c83594da71ae2794e0bbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc781f23bdaf843f9873a96dbae29504') in 0.004749 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_78.asset
-  artifactKey: Guid(bc737738aa02b01419abd39b81c0db36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_78.asset using Guid(bc737738aa02b01419abd39b81c0db36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccac736d20d3745638817887008c46ac') in 0.003726 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.047235 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_83.asset
-  artifactKey: Guid(530756b47296b7649ab423ceb36f9d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_83.asset using Guid(530756b47296b7649ab423ceb36f9d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd77e317ee46016acfa2ca93f52caf0') in 0.004035 seconds
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Running_(32 x 32).png
+  artifactKey: Guid(2dfef74b2e8a3bc42843d12e4ecf35ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Running_(32 x 32).png using Guid(2dfef74b2e8a3bc42843d12e4ecf35ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60efb545f2e85ab785ef3ce46b65794d') in 0.022249 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000011 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_88.asset
-  artifactKey: Guid(5c04113778c8d71459b980e16c62b626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_88.asset using Guid(5c04113778c8d71459b980e16c62b626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170449f74386245ba955c74618978398') in 0.004395 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_85.asset
-  artifactKey: Guid(def8d831a7dd96348b12567399e9b599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_85.asset using Guid(def8d831a7dd96348b12567399e9b599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd888675b8d5400b00a734f4f151422ba') in 0.005043 seconds
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Idle_(32 x 32).png
+  artifactKey: Guid(40cfc7acea6b3c04788ddfeb0234cb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Idle_(32 x 32).png using Guid(40cfc7acea6b3c04788ddfeb0234cb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d124f3be4e744caa32fb93b591de27f') in 0.022324 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000012 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_91.asset
-  artifactKey: Guid(d9fd8d338f386b64c99a575462ef11bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_91.asset using Guid(d9fd8d338f386b64c99a575462ef11bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b8e13a2a49b488a9f27cc2c5131151') in 0.003173 seconds
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Sparkles_(8 x 8).png
+  artifactKey: Guid(74183f1393dbd274387844532a20e663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Sparkles_(8 x 8).png using Guid(74183f1393dbd274387844532a20e663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0deb944f1d88b1759c82f55cfc4f6678') in 0.130894 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.292476 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_93.asset
-  artifactKey: Guid(07c5571b13788f149bd46b8bed04435d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_93.asset using Guid(07c5571b13788f149bd46b8bed04435d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79fd75591fdca606b7087bd991c8b49') in 0.004884 seconds
+  Time since last request: 7.754647 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/3 - Big Red/Facing_Player_(32 x 32).png
+  artifactKey: Guid(8c2a34f898c1c064fb12b3ffb1fb0aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/3 - Big Red/Facing_Player_(32 x 32).png using Guid(8c2a34f898c1c064fb12b3ffb1fb0aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'addbea271c179aadccfa7654c2e52160') in 0.023413 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_100.asset
-  artifactKey: Guid(a4901ff03f8dcb54385066795ebf7644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_100.asset using Guid(a4901ff03f8dcb54385066795ebf7644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f68bebb7b3a69e45b5f61cd3f23cbfb') in 0.003747 seconds
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/3 - Big Red/Super_Punch_(64 x 32).png
+  artifactKey: Guid(9a87322def495704992d3953bf7ae1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/3 - Big Red/Super_Punch_(64 x 32).png using Guid(9a87322def495704992d3953bf7ae1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10da5a3503ddc1c84cd567ec06165a7f') in 0.021866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/3 - Big Red/Idle_(32 x 32).png
+  artifactKey: Guid(e247758114e5c3843b3f638309d1a49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/3 - Big Red/Idle_(32 x 32).png using Guid(e247758114e5c3843b3f638309d1a49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfea3f5fb3520d669ce6e2f3ed21297') in 0.023870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.741609 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/4 - Squirmy Wormy/Movement_(32 x 32).png
+  artifactKey: Guid(2787b42812e842e4b86bb690853fdbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/4 - Squirmy Wormy/Movement_(32 x 32).png using Guid(2787b42812e842e4b86bb690853fdbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c991306463ca86b01348755744b5400') in 0.025190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.265411 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/4 - Squirmy Wormy/Movement_(32 x 32).png
+  artifactKey: Guid(2787b42812e842e4b86bb690853fdbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/4 - Squirmy Wormy/Movement_(32 x 32).png using Guid(2787b42812e842e4b86bb690853fdbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bcc8908a1fe95813165655c8eadc959') in 0.020376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.866798 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/5 - Moe Scotty/Hurt_(32 x 32).png
+  artifactKey: Guid(e1248e37d3f2e014085315f60d90cdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/5 - Moe Scotty/Hurt_(32 x 32).png using Guid(e1248e37d3f2e014085315f60d90cdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3745537aab8d85639999c9298a2e0cb') in 0.035296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.479727 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/5 - Moe Scotty/Hurt_(32 x 32).png
+  artifactKey: Guid(e1248e37d3f2e014085315f60d90cdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/5 - Moe Scotty/Hurt_(32 x 32).png using Guid(e1248e37d3f2e014085315f60d90cdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927126f58ec83b9b3d6478cbf50d3216') in 0.023944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.317988 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/6 - Mr. Chomps/Crawl_&_Chomp_(32 x 32).png
+  artifactKey: Guid(5e912465b68c8554e99737815e15f741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/6 - Mr. Chomps/Crawl_&_Chomp_(32 x 32).png using Guid(5e912465b68c8554e99737815e15f741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e01ad72809254affcec8ec7f23c3c4') in 0.029262 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_96.asset
-  artifactKey: Guid(3cec9419501636c42bbe72e2df498652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_96.asset using Guid(3cec9419501636c42bbe72e2df498652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8d5d2baa31b9f47ce303ede765957f') in 0.004209 seconds
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/6 - Mr. Chomps/Eye_Blink_(Replace last frame on Crawling)_(32 x 32).png
+  artifactKey: Guid(6cce0e382112a484493ae373d0066b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/6 - Mr. Chomps/Eye_Blink_(Replace last frame on Crawling)_(32 x 32).png using Guid(6cce0e382112a484493ae373d0066b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98c93ae4b6152621fddb8cbba881736') in 0.023220 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.016473 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/ISO_Palette1.prefab
-  artifactKey: Guid(3bce832a087fc154eb1807c8cee48a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/ISO_Palette1.prefab using Guid(3bce832a087fc154eb1807c8cee48a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecf7a67b8a73b4bebfccef81ec96822') in 0.078378 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 313
-========================================================================
-Received Import Request.
-  Time since last request: 1545.660148 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_18.asset
-  artifactKey: Guid(a89cf43a98a71114a859b0038956479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_18.asset using Guid(a89cf43a98a71114a859b0038956479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ea3e209184950f9dfb281158bb906e') in 0.007186 seconds
+  Time since last request: 4.629318 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/6 - Mr. Chomps/Crawl_&_Chomp_(32 x 32).png
+  artifactKey: Guid(5e912465b68c8554e99737815e15f741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/6 - Mr. Chomps/Crawl_&_Chomp_(32 x 32).png using Guid(5e912465b68c8554e99737815e15f741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a8493a6891c77cd1231d258d407ffe') in 0.023380 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.345233 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_10.asset
-  artifactKey: Guid(f58ad0a5db502054c8d4e063f12e6396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_10.asset using Guid(f58ad0a5db502054c8d4e063f12e6396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa53ae91e2f992adbeec0b007fcd005c') in 0.003015 seconds
+  Time since last request: 1.342159 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/7 - Grizzly/Idle_(48 x 32).png
+  artifactKey: Guid(fcfbfcd2726b107418250214274837c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/7 - Grizzly/Idle_(48 x 32).png using Guid(fcfbfcd2726b107418250214274837c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80df8b4d862db83306904dd4611e768c') in 0.028258 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.015598 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_12.asset
-  artifactKey: Guid(6bf6fa87ab478754bbf94b486708cb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_12.asset using Guid(6bf6fa87ab478754bbf94b486708cb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed63f68ac84eb33c0cc964b957e62867') in 0.004299 seconds
+  Time since last request: 4.402544 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/7 - Grizzly/Idle_(48 x 32).png
+  artifactKey: Guid(fcfbfcd2726b107418250214274837c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/7 - Grizzly/Idle_(48 x 32).png using Guid(fcfbfcd2726b107418250214274837c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5fd7234074810efe8c0e01bfc6aa46') in 0.023606 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_16.asset
-  artifactKey: Guid(53291dec429ae714fa133c9a95ab4685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_16.asset using Guid(53291dec429ae714fa133c9a95ab4685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1043ec86322aa99636eb36228d5028c') in 0.003929 seconds
+  Time since last request: 1.145020 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/8 - Orc/Falling_(64 x 32).png
+  artifactKey: Guid(c7ca882591bbb404eaf0d5a519ec3b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/8 - Orc/Falling_(64 x 32).png using Guid(c7ca882591bbb404eaf0d5a519ec3b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85b3abe034d4553b7d1c6be0b9609bf') in 0.025946 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_14.asset
-  artifactKey: Guid(ba89313732acc20419324a8f18af1c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_14.asset using Guid(ba89313732acc20419324a8f18af1c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e342ab1f34795e2ea1fe596ee4b8e3') in 0.003826 seconds
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/8 - Orc/Walking_&_Blink_(64 x 32).png
+  artifactKey: Guid(de77015766d54a5459d8d7e9e3b04998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/8 - Orc/Walking_&_Blink_(64 x 32).png using Guid(de77015766d54a5459d8d7e9e3b04998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72b6573a1f99d261f57df15243efab4') in 0.024281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.480875 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/8 - Orc/Falling_(64 x 32).png
+  artifactKey: Guid(c7ca882591bbb404eaf0d5a519ec3b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/8 - Orc/Falling_(64 x 32).png using Guid(c7ca882591bbb404eaf0d5a519ec3b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77553fe0ec962fd142c8e0311fbbdbcd') in 0.022690 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000011 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_6.asset
-  artifactKey: Guid(a5e147144244b434fb9e8ab8a39939e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_6.asset using Guid(a5e147144244b434fb9e8ab8a39939e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47729104fec38a76f6b17ed78127fc5d') in 0.003074 seconds
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/8 - Orc/Spear_Jab_(64 x 32).png
+  artifactKey: Guid(cf625339426583d4981b2745d8219ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/8 - Orc/Spear_Jab_(64 x 32).png using Guid(cf625339426583d4981b2745d8219ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb88b367cae23642517649c68c8b048') in 0.022326 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_4.asset
-  artifactKey: Guid(76ff40a1d27bdac449c2dcd9ee2f2919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_4.asset using Guid(76ff40a1d27bdac449c2dcd9ee2f2919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52c6ac8cdf43cb4895cd1060acca6a2') in 0.003947 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/8 - Orc/Idle_(64 x 32).png
+  artifactKey: Guid(300d4955c5c8b9b4b98cb8b88c36e5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/8 - Orc/Idle_(64 x 32).png using Guid(300d4955c5c8b9b4b98cb8b88c36e5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7807cf0f74083c8fd468ce33fe0a4ea4') in 0.018844 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_1.asset
-  artifactKey: Guid(5d403f8e87544944485a8494dd5e9240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_1.asset using Guid(5d403f8e87544944485a8494dd5e9240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396771059cf045e211c6a609890696cb') in 0.003814 seconds
+  Time since last request: 1.102490 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/9 - Wispy Fire/Idle_Flicker_(32 x 32).png
+  artifactKey: Guid(0ba85cd5ff955fa4e960cc5cf13a35a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/9 - Wispy Fire/Idle_Flicker_(32 x 32).png using Guid(0ba85cd5ff955fa4e960cc5cf13a35a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b9acc12d82fdfbf076cfa24d70a72b') in 0.026062 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.629401 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/9 - Wispy Fire/Idle_Flicker_(32 x 32).png
+  artifactKey: Guid(0ba85cd5ff955fa4e960cc5cf13a35a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/9 - Wispy Fire/Idle_Flicker_(32 x 32).png using Guid(0ba85cd5ff955fa4e960cc5cf13a35a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b20cbe0686461e4d1e0037b0c3af32') in 0.023672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1083.921202 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/4 - Squirmy Wormy/Movement_(32 x 32).png
+  artifactKey: Guid(2787b42812e842e4b86bb690853fdbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/4 - Squirmy Wormy/Movement_(32 x 32).png using Guid(2787b42812e842e4b86bb690853fdbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6401a2e3e60ea0957de5a2820b7895f3') in 0.019940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 30.105972 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/4 - Squirmy Wormy/Movement_(32 x 32).png
+  artifactKey: Guid(2787b42812e842e4b86bb690853fdbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/4 - Squirmy Wormy/Movement_(32 x 32).png using Guid(2787b42812e842e4b86bb690853fdbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532d266af573259dd9843ef6d5a3b465') in 0.021086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 103.066146 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Casting_Spell_(32 x 32).png
+  artifactKey: Guid(84fc8f344ff802948b0f72a0ba72efdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Casting_Spell_(32 x 32).png using Guid(84fc8f344ff802948b0f72a0ba72efdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97df24dc37ca9682bc2fe63a9bf1024') in 0.025053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Running_(32 x 32).png
+  artifactKey: Guid(2dfef74b2e8a3bc42843d12e4ecf35ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Running_(32 x 32).png using Guid(2dfef74b2e8a3bc42843d12e4ecf35ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b916a607eb90293f2de74315dc74aec4') in 0.020952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Casting_Spell_Repeating_(32 x 32).png
+  artifactKey: Guid(79d7f75e81463c84aa800b34869917dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Casting_Spell_Repeating_(32 x 32).png using Guid(79d7f75e81463c84aa800b34869917dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5037d39e5df85e73b22c7731e0168941') in 0.021839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Magical_Orbs_Spell_(32 x 32).png
+  artifactKey: Guid(3cebbfbcc88c3c64fb035a5fc0a4d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Magical_Orbs_Spell_(32 x 32).png using Guid(3cebbfbcc88c3c64fb035a5fc0a4d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8964f4351dd44fec0d9050ffd48e3f7a') in 0.021079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_2.asset
-  artifactKey: Guid(de5bddebeeb3b3e489cc4dd16921196a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TileMaps/Isometric_Tiles_Pixel_Art/Blocks/blocks_2.asset using Guid(de5bddebeeb3b3e489cc4dd16921196a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a7395e042588bef7f268cb28962cbd') in 0.003592 seconds
+  path: Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Falling_(32 x 32).png
+  artifactKey: Guid(694018eac755df14ebcaa9acdb1ef409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TileMaps/Sprite Pack 5/2 - Lil Wiz/Falling_(32 x 32).png using Guid(694018eac755df14ebcaa9acdb1ef409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8cb9b5add70a31ae60131819d714c97') in 0.018806 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
 AssetImportWorker is now disconnected from the server

@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 24852174}
   - component: {fileID: 24852175}
   m_Layer: 0
-  m_Name: Idle_(48 x 32)
+  m_Name: Marmota
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -150,8 +150,8 @@ Transform:
   m_GameObject: {fileID: 24852172}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 27.799541, y: 8.228652, z: -0.96231115}
-  m_LocalScale: {x: 20, y: 20, z: 1}
+  m_LocalPosition: {x: -0.4, y: 0.8, z: 0}
+  m_LocalScale: {x: 15, y: 20, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1827733727}
@@ -197,7 +197,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -943137182, guid: c24e29d22ccc48849b2f5f1d756f3d91, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fcfbfcd2726b107418250214274837c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -361,7 +361,7 @@ GameObject:
   m_Component:
   - component: {fileID: 161213890}
   m_Layer: 0
-  m_Name: Chara
+  m_Name: Personaje
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -376,7 +376,7 @@ Transform:
   m_GameObject: {fileID: 161213889}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.899543, y: 13.971349, z: 0.96231115}
+  m_LocalPosition: {x: -5.2, y: 12.8, z: 0.96231115}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -818,7 +818,7 @@ GameObject:
   - component: {fileID: 630026096}
   - component: {fileID: 630026095}
   m_Layer: 0
-  m_Name: Idle_(32 x 32)_0
+  m_Name: Personaje
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -833,7 +833,7 @@ Transform:
   m_GameObject: {fileID: 630026093}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.5995426, y: -0.97134876, z: -0.96231115}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 30, y: 30, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -105484,7 +105484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.35395977, g: 0.5283019, b: 0.33641866, a: 1}
+  m_Color: {r: 0.7388156, g: 1, b: 0.6273585, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -105762,7 +105762,7 @@ Transform:
   m_GameObject: {fileID: 1827733726}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.899543, y: 13.971349, z: 0.96231115}
+  m_LocalPosition: {x: 15.3, y: 20.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -105957,7 +105957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.70980394}
+  m_Color: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -106403,42 +106403,6 @@ PrefabInstance:
     - target: {fileID: 833381054660126357, guid: 71732d9032301a04b86c08070a9446f0, type: 3}
       propertyPath: m_Name
       value: Barriers
-      objectReference: {fileID: 0}
-    - target: {fileID: 833381054660126357, guid: 71732d9032301a04b86c08070a9446f0, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4701065689906731451, guid: 71732d9032301a04b86c08070a9446f0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 4701065689906731451, guid: 71732d9032301a04b86c08070a9446f0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -9.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 6329892381308083901, guid: 71732d9032301a04b86c08070a9446f0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -10.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 6368987221548800800, guid: 71732d9032301a04b86c08070a9446f0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.56
-      objectReference: {fileID: 0}
-    - target: {fileID: 6368987221548800800, guid: 71732d9032301a04b86c08070a9446f0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 20.92
-      objectReference: {fileID: 0}
-    - target: {fileID: 7367525751723515539, guid: 71732d9032301a04b86c08070a9446f0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 23.84
-      objectReference: {fileID: 0}
-    - target: {fileID: 7790232279804761511, guid: 71732d9032301a04b86c08070a9446f0, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.95910937
-      objectReference: {fileID: 0}
-    - target: {fileID: 7790232279804761511, guid: 71732d9032301a04b86c08070a9446f0, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9836426
       objectReference: {fileID: 0}
     - target: {fileID: 7790232279804761511, guid: 71732d9032301a04b86c08070a9446f0, type: 3}
       propertyPath: m_LocalPosition.x
