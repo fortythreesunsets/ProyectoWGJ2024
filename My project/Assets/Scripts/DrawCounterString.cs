@@ -5,12 +5,12 @@ using TMPro;
 
 public class DrawCounterString : MonoBehaviour
 {
-    TMPro.TMP_Text counterText;
+    TMPro.TMP_Text ballCounterText;
 
     // Start is called before the first frame update
     void Start()
     {
-        counterText = GetComponent<TMPro.TMP_Text>();
+        ballCounterText = GetComponent<TMPro.TMP_Text>();
         BallCounter.counter.counterUpdate += UpdateText;
         UpdateText(BallCounter.counter.numBalls);
         
@@ -24,6 +24,6 @@ public class DrawCounterString : MonoBehaviour
 
     void UpdateText(int i)
     {
-        counterText.text = "x " + i.ToString();
+        ballCounterText.text = "Tiros disponibles: " + i.ToString();
     }
 }

@@ -33,7 +33,7 @@ public class BucketMovement : MonoBehaviour
             transform.position -= Vector3.right * Time.deltaTime * speed;
             if(transform.position.x < min)
             {
-                transform.position.Set(max, transform.position.y, 0);
+                transform.position.Set(min, transform.position.y, 0);
                 goRight = !goRight;
             }
         }
