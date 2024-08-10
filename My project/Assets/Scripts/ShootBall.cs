@@ -28,7 +28,7 @@ public class ShootBall : MonoBehaviour
         lastFire += Time.deltaTime;
 
         //verification of pressed mouse button and timer
-        if (BallCounter.counter.numBalls > 0) 
+        if (BallCounter.counter.numBalls > 0 && OnBoardBallCount.Count <= 0 && PlatformCounter.Count > 0) 
         {
             if (Input.GetMouseButtonDown(0))
             {
@@ -44,11 +44,6 @@ public class ShootBall : MonoBehaviour
                     //remove a ball from the list
                     BallCounter.counter.RemoveBall();
                     obj_ball.GetComponent<Rigidbody2D>().AddForce(-transform.up * 9.81f, ForceMode2D.Impulse);
-
-                    /*
-                    //direction of ball
-                    obj_ball.GetComponent<BallMovement>().direction = -transform.up;
-                   */
                 }
                 
             }
