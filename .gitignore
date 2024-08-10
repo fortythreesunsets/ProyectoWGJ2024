@@ -40938,3 +40938,24 @@ My project/UserSettings/Search.settings
 /My project/Library
 /My project/Library
 /My project/Library
+My project/Logs/AssetImportWorker2.log
+My project/Temp/workerlic
+My project/Temp/UnityLockfile
+My project/Temp/FSTimeGet-3b6a701cd7018d04da5fbc6f88df242d
+My project/Logs/AssetImportWorker3.log
+My project/Logs/AssetImportWorker3-prev.log
+My project/Logs/AssetImportWorker2.log
+My project/Logs/AssetImportWorker2-prev.log
+My project/Logs/AssetImportWorker1-prev.log
+My project/Logs/AssetImportWorker0-prev.log
+My project/Library/Bee/TundraBuildState.state.map
+My project/Library/Bee/backend1.traceevents
+My project/Logs/AssetImportWorker3.log
+My project/Logs/AssetImportWorker2.log
+My project/Logs/AssetImportWorker1-prev.log
+My project/Logs/AssetImportWorker0-prev.log
+My project/Library/Bee/TundraBuildState.state.map
+My project/Library/Bee/backend1.traceevents
+*.log
+*.map
+*.traceevents
